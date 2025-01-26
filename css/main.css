@@ -8,7 +8,6 @@
     --background-color: black;
     --indent: 1rem;
     --border-radius: 20px;
-
     --symbol-size: 7rem;
     --background-color-skills: #cd6400;
     --gap: 1rem;
@@ -123,12 +122,12 @@ nav a:hover{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4.3rem;
-    height: 4.3rem;
+    width: 5rem;
+    height: 5rem;
     border: 0.2rem solid var(--font-color-hover);
     border-radius: 50%;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 10rem;
     color: var(--font-color);
     transition: .2s linear;
 }
@@ -161,7 +160,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     gap: var(--gap);
-    width: 25%;
+    width: 20%;
     height: 40%;
     box-sizing: border-box;
     padding: 1rem;
@@ -169,20 +168,10 @@ nav a:hover{
     transition: 0.3s linear;
 }
 
-.table .card:hover{
-    transform: translateY(-8px);
-    box-shadow: 0rem .3rem 2rem .1rem var(--font-color-hover);
-}
-
 #skills .table i {
     font-size: var(--symbol-size);
     -webkit-text-stroke: 0.2rem var(--color);
     color: transparent;
-}
-
-#skills .table .card:hover i {
-    -webkit-text-stroke: 0.2rem transparent;
-    color: var(--color);
 }
 
 .table .card h1 {
